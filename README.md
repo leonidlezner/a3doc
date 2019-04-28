@@ -18,3 +18,13 @@ To make the developer's life easier, writing documentation should be as easy as 
 * Keep the documentation tight at the implementation
 * Use the same tooling for implementation and design documentation
 * Review documentation as often the implementation
+* Use the same versioning tool for documentation as code
+* Allow reviews and version comparison (diffs)
+* Trace the changes along the V-Model
+* Allow documentation branching
+* The toolchain shall work for humans (Desktop) and for servers (CI/CD)
+* If someone gets the implementation, the design documents will be included
+* Documentation shall folow the implementation: be modular, scalable and extendable
+
+
+## What can be used for documentation?

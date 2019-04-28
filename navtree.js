@@ -1,7 +1,7 @@
 var NAVTREE =
 [
   [ "My Project", "index.html", [
-    [ "a3doc", "md_README.html", null ]
+    [ "Plantuml Demo", "md_plantuml.html", null ]
   ] ]
 ];
 

@@ -6,6 +6,6 @@ RUN apt-get update && apt-get install -y graphviz doxygen default-jre texlive-la
 
 WORKDIR "/home/workspace"
 
-#ENTRYPOINT ["doxygen"]
+ENTRYPOINT ["doxygen"]
 
-#CMD ["config/Doxyfile"]
+CMD ["config/Doxyfile"]

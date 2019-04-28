@@ -1,0 +1,14 @@
+skinparam componentStyle uml2
+skinparam shadowing false
+
+skinparam component {
+  BorderColor #FF6655
+  BorderColor #333333
+  BackgroundColor white
+}
+
+skinparam actor {
+  BorderColor #FF6655
+  BorderColor #333333
+  BackgroundColor white
+}

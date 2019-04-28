@@ -35,7 +35,7 @@ Textual documentation can be done in different ways. Using pure text will be not
 
 | Tool                  | Syntax
 |-----------------------|----------
-| Doxygen               | Markdown (extended)
+| Doxygen               | Markdown (buggy implementation)
 | Sphinx                | reStructuredText, Markdown
 
 To keep the design documentation tight to the implementation, any graphical tools should be avoided. But because a picture can be worth a thousand words, some visual representation is needed.
@@ -53,3 +53,8 @@ There at least two major tools for documenting the code. Doxygen is widely used 
 |-----------------------|----------
 | Doxygen               | C++
 | Sphinx                | Python, C++ (using Breathe)
+
+
+### Versioning
+
+For implementation and documentation Git shall be used.

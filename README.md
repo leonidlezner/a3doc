@@ -24,7 +24,27 @@ To make the developer's life easier, writing documentation should be as easy as 
 * Allow documentation branching
 * The toolchain shall work for humans (Desktop) and for servers (CI/CD)
 * If someone gets the implementation, the design documents will be included
-* Documentation shall folow the implementation: be modular, scalable and extendable
+* Documentation shall follow the implementation: be modular, scalable and extendable
 
 
 ## What can be used for documentation?
+
+### Documenting architecture and design
+
+To keep the design documentation tight to the implementation, any graphical tools should be avoided. But because a picture can be worth a thousand words, some visual representation is needed.
+
+````plantuml
+@startuml
+:Developer: -> [Documentation]
+[Documentation] -> [Implementation]
+@enduml
+````
+
+### Documenting code
+
+There at least two major tools for documenting the code. Doxygen is widely used for C/C++ and Sphinx for Python code. Sphinx can also scan C++ sources by using Breathe, which provides the bridge from Doxygen to Sphinx (yes, you have to install Doxygen).
+
+| Tool                  | Language
+|-----------------------|----------
+| Doxygen               | C++
+| Sphinx                | Python, C++ (using Breathe)

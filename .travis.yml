@@ -6,8 +6,10 @@ addons:
   apt:
     packages:
       - doxygen
+      - graphviz
+      - plantuml
 script:
-  - doxygen config/Doxyfile
+  - doxygen example/config/Doxyfile
 notifications:
     email: false
 deploy:

@@ -5,8 +5,9 @@ branches:
 install:
   - sudo apt-get install graphviz doxygen default-jre
   - curl -L https://sourceforge.net/projects/plantuml/files/plantuml.1.2019.5.jar/download -o /tmp/plantuml.jar
+before_script: cd example
 script:
-  - doxygen example/config/Doxyfile
+  - doxygen config/Doxyfile
 notifications:
     email: false
 deploy:

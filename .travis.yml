@@ -1,3 +1,4 @@
+dist: xenial
 sudo: false
 branches:
   only:

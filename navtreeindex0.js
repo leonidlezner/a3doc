@@ -1,6 +1,7 @@
 var NAVTREEINDEX0 =
 {
 "index.html":[],
-"md_plantuml.html":[0],
+"index.html":[0],
+"md_plantuml.html":[1],
 "pages.html":[]
 };

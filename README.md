@@ -31,14 +31,19 @@ To make the developer's life easier, writing documentation should be as easy as 
 
 ### Documenting architecture and design
 
+Textual documentation can be done in different ways. Using pure text will be not easy to read. But if pure text with special markup can be used for creating the documentation, there are easy ways to generate an good-locking documents out of those texts. For example Markdown or reStructuredText. Doxygen has native support for extended Markdown syntax.
+
+| Tool                  | Syntax
+|-----------------------|----------
+| Doxygen               | Markdown (extended)
+| Sphinx                | reStructuredText, Markdown
+
 To keep the design documentation tight to the implementation, any graphical tools should be avoided. But because a picture can be worth a thousand words, some visual representation is needed.
 
-````plantuml
-@startuml
-:Developer: -> [Documentation]
-[Documentation] -> [Implementation]
-@enduml
-````
+| Tool                  | Diagrams
+|-----------------------|----------
+| PlantUML              | Sequence, Component, Class, State, Use Case, Activity, Mindmap
+
 
 ### Documenting code
 

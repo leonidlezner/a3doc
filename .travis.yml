@@ -2,12 +2,10 @@ sudo: false
 branches:
   only:
     - master
-addons:
-  apt:
-    packages:
-      - doxygen
-      - graphviz
-      - plantuml
+install:
+  - sudo apt-get install graphviz doxygen default-jre
+  - mkdir /app
+  - curl -L https://sourceforge.net/projects/plantuml/files/plantuml.1.2019.5.jar/download -o /app/plantuml.jar
 script:
   - doxygen example/config/Doxyfile
 notifications:
